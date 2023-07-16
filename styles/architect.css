@@ -81,13 +81,13 @@ nav a{
         padding: 0px;
     }
     nav a{
-       padding: 15px;
+       padding: 10px;
     }
     nav li{
         padding: 0px;
     }
     .banner-img{
-        width: 342px;
+        width: 320px;
     }
 }
 
@@ -98,6 +98,81 @@ nav a{
         padding: 0px;}
 
         .banner-img{
-            width: 800px;
+            width: 700px;
         }
+}
+/* main section related style */
+/* features related style */
+.features-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+.features-images-container{
+    margin-left: 300px;
+
+}
+.features-images{
+    display: flex;
+    gap: 15px;
+}
+/* I have a question */
+.features-description-container{
+    margin-left: 100px;
+    /* padding: 50px; */
+}
+.features-title{
+    color: #727272;
+    font-size: 2.82rem;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 2.82rem;
+    font-weight: 700;
+}
+.features{
+    color: #FF900E;
+    font-size: 2.82rem;
+    font-weight: 700;
+}
+.features-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 70%;
+}
+@media screen and (max-width:576px) {
+   
+    .features-container{
+        flex-direction: column-reverse;
+    }
+    .features-images-container{
+        margin: 0px;
+    }
+    /* .width{
+        width: 170px;
+    } */
+    .features-images{
+        flex-direction: column;
+        
+    }
+    .features-description-container{
+        margin-left:2px;
+    }
+    .features-description{
+        width: auto;
+    }
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    .features-container{
+        flex-direction: column-reverse;
+    }
+    .features-images-container{
+        margin: 0px;
+    }
+    .features-description-container{
+        margin-left: 25px;
+    }
 }
