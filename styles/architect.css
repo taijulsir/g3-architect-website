@@ -3,3 +3,70 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;  
 }
+
+/* header related styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+.header-title{
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+nav > ul{
+    display: flex;  
+}
+nav li{
+    list-style: none;
+    /* padding-right: 50px; */
+    }
+nav a{
+    text-decoration: none;
+    color:#424242;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-right: 50px;
+}
+.banner-content{
+   max-width: 800px;
+    text-align: center;
+    /* align-items: center; */
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    /* text-align: center; */
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    color:#727272;
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.banner-images{
+    text-align: center;
+    align-items: center;
+
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
